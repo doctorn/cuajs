@@ -1,24 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import CommitteeMember, {MemberDescriptor} from './Committee';
+import tokinoPhoto from './assets/committee/takahashi_tokino.jpg';
+import mahoPhoto from './assets/committee/taketani_maho.jpg';
+
 import './App.css';
+
+const tokino: MemberDescriptor = {
+  role: "Publicity Officer",
+  name: "Tokino Takahashi",
+  email: "tt429@cam.ac.uk",
+  subject: "Medicine",
+  college: "Emmanuel",
+  photo: tokinoPhoto,
+};
+
+const maho: MemberDescriptor = {
+  role: "President",
+  name: "Maho Taketani",
+  email: "mt738@cam.ac.uk",
+  subject: "HSPS",
+  college: "Magdalene",
+  photo: mahoPhoto,
+};
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CommitteeMember {...maho}/>
+      <CommitteeMember {...tokino}/>
     </div>
   );
 }

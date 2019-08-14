@@ -1,0 +1,26 @@
+.CommitteeMember {
+  width: 250px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CommitteeMember-photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+  border: 5px solid white;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+}
+
+.CommitteeMember-role {
+  font-weight: normal;
+  margin: 15px 0px 0px 0px;
+}
+
+.CommitteeMember-name {
+  font-weight: normal;
+  margin: 7.5px;
+}
