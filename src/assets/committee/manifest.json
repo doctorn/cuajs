@@ -1,0 +1,52 @@
+{
+  "members": [
+    {
+      "role": "President",
+      "name": "Maho Taketani",
+      "email": "mt738@cam.ac.uk",
+      "subject": "HSPS",
+      "college": "Magdalene",
+      "photo": "taketani_maho.jpg"
+    },
+    {
+      "role": "Vice-President",
+      "name": "Kazuki Doi",
+      "email": "kcd25@cam.ac.uk",
+      "subject": "Physics",
+      "college": "Emmanuel",
+      "photo": "doi_kazuki.jpg"
+    },
+    {
+      "role": "Treasurer",
+      "name": "Jun Eshima",
+      "email": "?????@cam.ac.uk",
+      "subject": "Mathematics",
+      "college": "Trinity",
+      "photo": "eshima_jun.jpg"
+    },
+    {
+      "role": "Publicity Officer",
+      "name": "Tokino Takahashi",
+      "email": "tt429@cam.ac.uk",
+      "subject": "Medicine",
+      "college": "Emmanuel",
+      "photo": "takahashi_tokino.jpg"
+    },
+    {
+      "role": "Events Officer",
+      "name": "Kanako Hara",
+      "email": "?????@cam.ac.uk",
+      "subject": "HSPS",
+      "college": "Homerton",
+      "photo": "hara_kanako.jpg"
+    },
+    {
+      "role": "Careers Officer",
+      "name": "Kojin Minorikawa",
+      "email": "km747@cam.ac.uk",
+      "subject": "HSPS",
+      "college": "Magdalene",
+      "photo": "minorikawa_kojin.jpg"
+    }
+  ]
+}
