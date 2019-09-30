@@ -1,9 +1,15 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  backface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #DDD;
+  background-color: #232425;
+  color: white;
+}
+
+h1 {
+  text-transform: uppercase;
 }
 
 a {
@@ -23,6 +29,10 @@ a:hover {
 
 a .Icon {
   height: 20px;
-  margin-right: 4px;
-  margin-bottom: -4px;
+  margin-right: 8px;
+  margin-bottom: -3px;
+}
+
+p, a {
+  font-size: 17px;
 }

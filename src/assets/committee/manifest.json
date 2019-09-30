@@ -48,5 +48,9 @@
       "college": "Magdalene",
       "photo": "minorikawa_kojin.jpg"
     }
-  ]
+  ],
+  "treasurer": {
+    "name": "Dr David Norman",
+    "college": "Christ's"
+  }
 }

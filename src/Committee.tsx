@@ -13,6 +13,10 @@ export type MemberDescriptor = {
 
 export type CommitteeDescriptor = {
   members: MemberDescriptor[],
+  treasurer: {
+    name: string,
+    college: string,
+  },
 };
 
 export const CommitteeMember: React.SFC<MemberDescriptor> =
@@ -42,11 +46,22 @@ export const CommitteeMember: React.SFC<MemberDescriptor> =
   };
 
 const Committee: React.SFC<CommitteeDescriptor> =
-  ({ members }) => {
-    return (
-      <div className="Committee">
-        {members.map(member => <CommitteeMember {...member} />)}
-      </div>
+  ({ members, treasurer }) => {
+    return ( 
+      <>
+        <div className="Committee">
+          {members.map(member => <CommitteeMember {...member} />)}
+        </div>
+        <div className="SeniorTreasurer">
+          <h4 className="CommitteeMember-role">Senior Treasurer</h4>
+          <h3 className="CommitteeMember-name">{treasurer.name}</h3>
+          <p className="CommitteeMember-info">
+            <span className="CommitteeMember-college">
+              {treasurer.college}
+            </span>
+          </p>
+        </div>
+      </>
     );
   };
 

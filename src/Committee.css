@@ -7,6 +7,16 @@
   align-items: center;
 }
 
+.SeniorTreasurer {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .CommitteeMember-photo {
   width: 250px;
   height: 250px;
@@ -28,11 +38,11 @@
 
 .CommitteeMember-name {
   font-weight: normal;
-  margin: 7.5px;
+  margin: 10px;
 }
 
 .CommitteeMember-info {
-  margin: 7.5px;
+  margin: 5px;
 }
 
 .Committee {
