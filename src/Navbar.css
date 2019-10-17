@@ -49,7 +49,7 @@
   height: 100%;
   box-sizing: border-box;
   padding: 55px 20px 0px 20px;
-  transition: background-color 200ms, border-bottom 200ms;
+  transition: background-color 150ms, border-bottom 150ms;
 }
 
 .Navbar-links > li > a:hover {
@@ -154,8 +154,48 @@
   }
 
   .Navbar-links {
-    flex-direction: column;
-    visibility: hidden;
+    background-color: #232425;
+    margin-left: -15px;
+    margin-right: -15px;
+    width: 100%;
+    height: auto;
+    max-height: 0px;
+    position: absolute;
+    display: block;
+    top: 70px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: max-height 350ms;
+    pointer-events: none;
+  }
+
+  .Navbar-links.Enabled {
+    max-height: calc(100vh - 70px);
+    pointer-events: all;
+  }
+
+  .Navbar-links > li {
+    display: block;
+    height: 70px;
+  }
+
+  .Navbar-links > li:hover {
+    display: block;
+    height: 70px;
+  }
+
+  .Navbar-links > li > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 0px;
+    padding-left: 15px;
+    padding-top: 25px;
+  }
+
+  .Navbar-links > li > a:hover {
+    border: none;
   }
 
   .Navbar-burger {

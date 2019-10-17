@@ -1,6 +1,7 @@
 import React from 'react';
 import Column from './Column';
 import './Footer.css';
+import { Facebook, Instagram, Email } from '@material-ui/icons';
 
 import logo from './assets/logos/logo_horiz.png';
 
@@ -12,13 +13,18 @@ const Footer: React.FC = (props) => {
           <div className="Footer-logo">
             <img alt="AJS logo" src={logo} />
           </div>
-          <div>
+          <div className="Footer-segment">
             <h3>Site</h3>
             <ul className="Footer-sitelinks">
               {React.Children.map(props.children!, child => (
                 <li>{child}</li>
               ))}
             </ul>
+          </div>
+          <div className="Footer-sociallinks">
+            <a href="https://www.facebook.com/CUAJS/"><Facebook className="Icon" /></a>
+            <a href="https://www.instagram.com/anglojapanesesociety/"><Instagram className="Icon" /></a>
+            <a href="mailto:anglojapanesesociety@gmail.com"><Email className="Icon" /></a>
           </div>
         </div>
       </Column>

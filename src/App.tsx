@@ -26,23 +26,23 @@ const App: React.FC = () => {
       <div className="App">
         <Navbar>
           <Link to="/">
-            <Home className="Icon"/>
+            <Home className="Icon" />
             Home
           </Link>
           <Link to="/about">
-            <Info className="Icon"/>
+            <Info className="Icon" />
             About Us
           </Link>
           <Link to="/committee">
-            <People className="Icon"/>
+            <People className="Icon" />
             Committee
           </Link>
           <Link to="/join">
-            <PersonAdd className="Icon"/>
+            <PersonAdd className="Icon" />
             Become a Member
           </Link>
           <Link to="/contact">
-            <Send className="Icon"/>
+            <Send className="Icon" />
             Contact Us
           </Link>
         </Navbar>
@@ -51,23 +51,23 @@ const App: React.FC = () => {
         <Route path="/committee" component={CommitteePage} />
         <Footer>
           <Link to="/">
-            <Home className="Icon"/>
+            <Home className="Icon" />
             Home
           </Link>
           <Link to="/about">
-            <Info className="Icon"/>
+            <Info className="Icon" />
             About Us
           </Link>
           <Link to="/committee">
-            <People className="Icon"/>
+            <People className="Icon" />
             Committee
           </Link>
           <Link to="/join">
-            <PersonAdd className="Icon"/>
+            <PersonAdd className="Icon" />
             Become a Member
           </Link>
           <Link to="/contact">
-            <Send className="Icon"/>
+            <Send className="Icon" />
             Contact Us
           </Link>
         </Footer>

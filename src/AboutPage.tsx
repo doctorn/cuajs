@@ -30,7 +30,7 @@ const Aim: React.SFC<PropsWithChildren<AimDescriptor>> = (props) => {
         {props.children}
       </div>
       <div className="Aim-image">
-        <img src={props.image} style={props.imageStyle} />
+        <img alt="Our Aims" src={props.image} style={props.imageStyle} />
       </div>
     </div>
   );
