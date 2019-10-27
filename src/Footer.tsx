@@ -29,6 +29,7 @@ const Footer: React.FC = (props) => {
         </div>
       </Column>
       <div className="Footer-copyright">
+        <p>日本語のバージョンも来ます</p><br />
         <p>Copyright &copy; 2019 Cambridge University Anglo-Japanese Society</p>
         <p>License GPL v2.0</p>
       </div>

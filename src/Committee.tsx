@@ -15,7 +15,6 @@ export type CommitteeDescriptor = {
   members: MemberDescriptor[],
   treasurer: {
     name: string,
-    college: string,
   },
 };
 
@@ -55,11 +54,6 @@ const Committee: React.SFC<CommitteeDescriptor> =
         <div className="SeniorTreasurer">
           <h4 className="CommitteeMember-role">Senior Treasurer</h4>
           <h3 className="CommitteeMember-name">{treasurer.name}</h3>
-          <p className="CommitteeMember-info">
-            <span className="CommitteeMember-college">
-              {treasurer.college}
-            </span>
-          </p>
         </div>
       </>
     );

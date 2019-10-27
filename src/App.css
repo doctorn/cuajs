@@ -1,3 +1,15 @@
 .Gallery {
   width: 100%;
 }
+
+.Content {
+  background-color: #232425;
+  height: 100%;
+  width: 100%;
+}
+
+.ContactPage-facebook {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

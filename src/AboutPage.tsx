@@ -62,6 +62,7 @@ const AboutPage: React.FC = () => {
           <h1>Party!</h1>
           <p>As well as all our events in term we hold an annual New Year's Party (involving Japanese food and umeshu!) and an end-of-term Garden Party in the summer. We hope you can join us in celebrating how life can be enriched through understanding and sharing culture! </p>
         </Aim>
+        <br />
       </Column>
     </>
   );

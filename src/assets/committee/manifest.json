@@ -17,9 +17,17 @@
       "photo": "doi_kazuki.jpg"
     },
     {
+      "role": "Secretary",
+      "name": "John Wheatley",
+      "email": "jew49@cam.ac.uk",
+      "subject": "Engineering",
+      "college": "Darwin",
+      "photo": "wheatley_john.jpg"
+    },
+    {
       "role": "Treasurer",
       "name": "Jun Eshima",
-      "email": "?????@cam.ac.uk",
+      "email": "je406@cam.ac.uk",
       "subject": "Mathematics",
       "college": "Trinity",
       "photo": "eshima_jun.jpg"
@@ -35,22 +43,37 @@
     {
       "role": "Events Officer",
       "name": "Kanako Hara",
-      "email": "?????@cam.ac.uk",
+      "email": "kh653@cam.ac.uk",
       "subject": "HSPS",
       "college": "Homerton",
       "photo": "hara_kanako.jpg"
     },
     {
-      "role": "Careers Officer",
+      "role": "Social Secretary",
       "name": "Kojin Minorikawa",
       "email": "km747@cam.ac.uk",
       "subject": "HSPS",
       "college": "Magdalene",
       "photo": "minorikawa_kojin.jpg"
+    },
+    {
+      "role": "Careers Officer",
+      "name": "Kazuki Tsujisaka",
+      "email": "kt448@cam.ac.uk",
+      "subject": "Physics",
+      "college": "Homerton",
+      "photo": "tsujisaka_kazuki.jpg"
+    },
+    {
+      "role": "Webmaster",
+      "name": "Nathan Corbyn",
+      "email": "nc513@cam.ac.uk",
+      "subject": "Computer Science",
+      "college": "King's",
+      "photo": "corbyn_nathan.jpg"
     }
   ],
   "treasurer": {
-    "name": "Dr David Norman",
-    "college": "Christ's"
+    "name": "Dr. Fumiya Ida"
   }
 }
