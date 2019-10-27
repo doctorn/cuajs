@@ -7,9 +7,9 @@ import './HomePage.css';
 
 import homepageBanner1 from './assets/banners/homepage_banner_1.jpg';
 
-import community from './assets/photos/community.jpg';
-import exchange from './assets/photos/exchange.jpg';
-import awareness from './assets/photos/awareness.jpg';
+import flag from './assets/photos/flag.jpg';
+import formal from './assets/photos/food.jpg';
+import culture from './assets/photos/bridge.jpg';
 
 const HomePage: React.FC = () => {
   return (
@@ -21,9 +21,9 @@ const HomePage: React.FC = () => {
         </GalleryView>
       </Gallery>
       <div className="HomePage-highlights">
-        <Highlight image={community} highlight="Events Fortnightly" />
-        <Highlight image={exchange} highlight="Over 100 Active Members" />
-        <Highlight image={awareness} highlight="Cultural and Linguistic Exchange" />
+        <Highlight image={flag} highlight="Events Fortnightly" />
+        <Highlight image={formal} highlight="Over 100 Active Members" />
+        <Highlight image={culture} highlight="Cultural and Linguistic Exchange" />
       </div>
       <Column />
     </>
