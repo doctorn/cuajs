@@ -96,7 +96,7 @@ const CommitteePage: React.FC = () => {
       <Column>
         <h1>Executive Committee</h1>
         <p>
-          AJS is run by the Executive Committee which is elected at a yearly meeting (AGM) in the Lent Term, and a General Committee which is chosen by the Executive Committee. If you want to get involved with AJS, get in touch at <a href="mailto:anglojapanesesociety@gmail.com">anglojapanesesoc@gmail.com</a>. The committee is run according to the constitution. Our general committee is elected by the executive committee during the year, should the need arise. 
+          AJS is run by the Executive Committee which is elected at a yearly meeting (AGM) in the Lent Term, and a General Committee which is chosen by the Executive Committee. If you want to get involved with AJS, get in touch at <a href="mailto:anglojapanesesociety@gmail.com">anglojapanesesociety@gmail.com</a>. The committee is run according to the constitution. Our general committee is elected by the executive committee during the year, should the need arise. 
         </p>
         <Committee {...committee}/>
         <br />
