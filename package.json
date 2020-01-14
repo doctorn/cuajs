@@ -2,7 +2,7 @@
   "name": "cuajs",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://cuajs.soc.srcf.net/",
+  "homepage": "http://cuajs.soc.srcf.net/",
   "dependencies": {
     "@material-ui/core": "^4.3.2",
     "@material-ui/icons": "^4.2.1",
