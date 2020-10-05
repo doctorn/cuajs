@@ -36,13 +36,17 @@
   margin: 15px 0px 0px 0px;
 }
 
+.CommitteeMember-email {
+  margin: 5px;
+}
+
 .CommitteeMember-name {
   font-weight: normal;
   margin: 10px;
 }
 
 .CommitteeMember-info {
-  margin: 5px;
+  margin: 0px 5px 5px 5px;
 }
 
 .Committee {

@@ -2,67 +2,67 @@
   "members": [
     {
       "role": "President",
-      "name": "Maho Taketani",
-      "email": "mt738@cam.ac.uk",
-      "subject": "HSPS",
-      "college": "Magdalene",
-      "photo": "taketani_maho.jpg"
-    },
-    {
-      "role": "Vice-President",
-      "name": "Kazuki Doi",
-      "email": "kcd25@cam.ac.uk",
-      "subject": "Physics",
-      "college": "Emmanuel",
-      "photo": "doi_kazuki.jpg"
-    },
-    {
-      "role": "Secretary",
-      "name": "John Wheatley",
-      "email": "jew49@cam.ac.uk",
-      "subject": "Engineering",
-      "college": "Darwin",
-      "photo": "wheatley_john.jpg"
-    },
-    {
-      "role": "Treasurer",
-      "name": "Jun Eshima",
-      "email": "je406@cam.ac.uk",
-      "subject": "Mathematics",
-      "college": "Trinity",
-      "photo": "eshima_jun.jpg"
-    },
-    {
-      "role": "Publicity Officer",
-      "name": "Tokino Takahashi",
-      "email": "tt429@cam.ac.uk",
-      "subject": "Medicine",
-      "college": "Emmanuel",
-      "photo": "takahashi_tokino.jpg"
-    },
-    {
-      "role": "Events Officer",
       "name": "Kanako Hara",
-      "email": "kh653@cam.ac.uk",
+      "email": "",
       "subject": "Land Economy",
       "college": "Homerton",
       "photo": "hara_kanako.jpg"
     },
     {
+      "role": "Vice-President",
+      "name": "Tokino Takahashi",
+      "email": "",
+      "subject": "Medicine",
+      "college": "Emmanuel",
+      "photo": "takahashi_tokino.jpg"
+    },
+    {
+      "role": "Secretary",
+      "name": "Fred Maeng",
+      "email": "",
+      "subject": "Economics",
+      "college": "Downing",
+      "photo": "maeng_fred.png"
+    },
+    {
+      "role": "Treasurer",
+      "name": "Ayane Hirata",
+      "email": "",
+      "subject": "Engineering",
+      "college": "Magdalene",
+      "photo": "hirata_ayane.jpg"
+    },
+    {
+      "role": "Publicity Officer",
+      "name": "May Hawkings",
+      "email": "",
+      "subject": "MML",
+      "college": "Jesus",
+      "photo": "hawkings_may.jpg"
+    },
+    {
+      "role": "Events Officer",
+      "name": "Emma Chang Liu",
+      "email": "",
+      "subject": "Linguistics",
+      "college": "Queen's",
+      "photo": "chang_liu_emma.png"
+    },
+    {
       "role": "Social Secretary",
-      "name": "Kojin Minorikawa",
-      "email": "km747@cam.ac.uk",
-      "subject": "HSPS",
-      "college": "Homerton",
-      "photo": "minorikawa_kojin.jpg"
+      "name": "Ricky Kawagashi",
+      "email": "",
+      "subject": "Engineering",
+      "college": "Robinson",
+      "photo": "kawagashi_ricky.jpg"
     },
     {
       "role": "Careers Officer",
-      "name": "Kazuki Tsujisaka",
-      "email": "kt448@cam.ac.uk",
-      "subject": "Geography",
-      "college": "Homerton",
-      "photo": "tsujisaka_kazuki.jpg"
+      "name": "Koji Shukawa",
+      "email": "",
+      "subject": "Natural Sciences",
+      "college": "St. John's",
+      "photo": "shukawa_koji.png"
     },
     {
       "role": "Webmaster",

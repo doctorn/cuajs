@@ -29,10 +29,6 @@ export const CommitteeMember: React.SFC<MemberDescriptor> =
         />
         <h4 className="CommitteeMember-role">{descriptor.role}</h4>
         <h3 className="CommitteeMember-name">{descriptor.name}</h3>
-        <a className="CommitteeMember-email" href="mailto:{descriptor.email}">
-          <Email className="Icon"/>
-          {descriptor.email}
-        </a>
         <p className="CommitteeMember-info">
           <span className="CommitteeMember-college">
             {descriptor.college}
@@ -40,6 +36,15 @@ export const CommitteeMember: React.SFC<MemberDescriptor> =
             {descriptor.subject}
           </span>
         </p>
+      {
+        (descriptor.email !== "") ?
+          (
+            <a className="CommitteeMember-email" href="mailto:{descriptor.email}">
+              <Email className="Icon"/>
+              {descriptor.email}
+            </a>
+          ) : (<></>)
+      }
       </div>
     );
   };
