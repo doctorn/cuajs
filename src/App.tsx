@@ -117,7 +117,7 @@ const JoinPage: React.FC = () => {
         <h1>Membership</h1>
         <p>We welcome all members of the university - students and staff who are interested in finding more about Japanese culture of who are looking for a Japan-related community. You can be of any nationality and you most definitely don't need to know any Japanese to join either!</p>
         <p>Membership is £5 per year, or £10 for life. Membership allows you access to certain member-only events as well as providing discounted access for our open events.</p>
-        <p>To apply for membership, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFJUEx2j64HgzZRI_CjLjUGCmcgMsVeicvmXu0HLAyAZdOsg/viewform?fbclid=IwAR1WDTXxkeVb244A3RjnY2twAyl_P3yFPmoFkqFXi9SHLN_ZaH5oieFB_1I">this form</a> and we'll get in contact with you about payment soon!</p>
+        <p>To apply for membership, please fill out <a href="https://forms.gle/6sWqvCTGC1KzMXWs8">this form</a> and we'll get in contact with you about payment soon!</p>
         <br />
       </Column>
     </>

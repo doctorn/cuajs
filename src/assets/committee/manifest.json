@@ -18,19 +18,19 @@
     },
     {
       "role": "Secretary",
-      "name": "Fred Maeng",
-      "email": "",
-      "subject": "Economics",
-      "college": "Downing",
-      "photo": "maeng_fred.png"
-    },
-    {
-      "role": "Treasurer",
       "name": "Ayane Hirata",
       "email": "",
       "subject": "Engineering",
       "college": "Magdalene",
       "photo": "hirata_ayane.jpg"
+    },
+    {
+      "role": "Treasurer",
+      "name": "Fred Maeng",
+      "email": "",
+      "subject": "Economics",
+      "college": "Downing",
+      "photo": "maeng_fred.png"
     },
     {
       "role": "Publicity Officer",
